@@ -96,16 +96,9 @@ Console.Write("Введите число: ");
 
 int a = int.Parse(Console.ReadLine());
 
-int b = -a;
-
-if (a % 2 == 0){
-     b = b + 0;
-}
-else{
-    b = b + 1;
-}
+int b = 0;
 
 while (b <= a){
     Console.Write($"{b} ");
     b = b + 2;
-    }
+}
